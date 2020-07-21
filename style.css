@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant|Montserrat');
-@media only screen and (max-device-width: 480px) {
-    body {
+@media only screen and (min-width: 800px) {
+  body {
+    column-width: 400px 1;
     font-size: 500%;
-    }
-    h1 {
-    font-size: 500%;
-    }
-    h2 {
-    font-size: 500%;
-    }
-    .header {
-    font-size: 500%;
-    }
-    a.link {
-    font-size: 500%;
-    }
+  }
 
-    }
+  h1 {
+    font-size: 300%;
+  }
+
+  h2 {
+    font-size: 300%;
+  }
+
+  .header {
+    font-size: 300%;
+  }
+  
+  p {
+    font-size: 500%;
+  }
+}
+
 body {
   background-color: rgb(255,254,249);
   margin-left: auto;
