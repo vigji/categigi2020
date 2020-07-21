@@ -1,32 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant|Montserrat');
-@media only screen and (max-width: 700px) {
-  body {
-    column-width: 400px 1;
-    font-size: 300%;
-  }
-
-  h1 {
-    font-size: 300%;
-  }
-
-  h2 {
-    font-size: 300%;
-  }
-
-  .header {
-    font-size: 300%;
-  }
-
-  p {
-    font-size: 300%;
-  }
-}
 
 body {
-  background-color: rgb(255,254,249);
+  background-color: rgb(255, 254, 249);
   margin-left: auto;
   margin-right: auto;
-  column-width: 200px 1;
   text-align: center;
   color: rgb(0,0,0);
   font-size: large;
@@ -46,7 +23,7 @@ h2 {
   font-weight: light;
   font-size: medium;
 }
-/* Style the header with a grey background and some padding */
+
 .header {
   overflow: hidden;
   background-color: rgb(0,0,0,0);
@@ -61,6 +38,7 @@ a {
 a:link {
   text-decoration: none;
   font-family: 'Cormorant', serif;
+  white-space: nowrap;
 }
 a:visited {
   text-decoration: none;
@@ -77,4 +55,28 @@ ul {
   padding-right: 5em;
   padding-left: 5em;
   margin-top: 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+  width: 80%;
+  }
+
+  h1 {
+    font-size: 300%;
+  }
+
+  h2 {
+    font-size: 200%;
+  }
+
+  p {
+    font-size: 200%;
+  }
+
+  .header {
+    font-size: 200%;
+  }
+
+
 }
