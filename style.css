@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant|Montserrat');
+body {
+  background-color: rgb(255,254,249);
+  margin-left: auto;
+  margin-right: auto;
+  column-width: 200px 1;
+  text-align: center;
+  color: rgb(0,0,0);
+  font-size: large;
+  width: 25em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: light;
+}
+h1 {
+  margin-top: 50px;
+  color: rgb(128, 0, 0);
+  font-weight: normal;
+  font-family: 'Cormorant', serif;
+}
+h2 {
+  color: rgb(160,160,160);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: light;
+  font-size: medium;
+}
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: rgb(0,0,0,0);
+  text-align: right;
+}
+
+p {
+}
+a {
+  color: rgb(128, 0, 0);
+}
+a:link {
+  text-decoration: none;
+  font-family: 'Cormorant', serif;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-right: 5em;
+  padding-left: 5em;
+  margin-top: 0.5em;
+}
