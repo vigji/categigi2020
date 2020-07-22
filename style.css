@@ -57,10 +57,12 @@ ul {
   margin-top: 0.5em;
 }
 
+.gmap_canvas iframe {
+  width: 100%;
+}
+
 @media all and (max-width: 600px) {
   body {
-  width: 80%;
+    width: 80%;
   }
-
-
 }
